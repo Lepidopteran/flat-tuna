@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="addon">
+  <id>com.obsproject.Studio.Plugin.Tuna</id>
+  <extends>com.obsproject.Studio</extends>
+  <name>Tuna</name>
+  <summary>Get song info from right within obs</summary>
+  <description>
+    <p>Lets you display information about the currently playing song in obs without running a separate program.</p>
+    <p>Currently supports</p>
+    <ul>
+      <li>Spotify</li>
+      <li>MPD</li>
+      <li>Any Window title</li>
+      <li>last.fm scrobbling</li>
+      <li>OBS VLC source</li>
+      <li>YouTube Music</li>
+      <li>Most music players through MPRIS and Windows Media Control</li>
+    </ul>
+    <p>Also supported via <em>tampermonkey</em>:</p>
+    <ul>
+      <li>Soundcloud</li>
+      <li>Spotify Web Player</li>
+      <li>Deezer</li>
+      <li>Yandex Music</li>
+      <li>Pretzel.rocks</li>
+    </ul>
+  </description>
+  <url type="homepage">https://github.com/univrsal/tuna</url>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-2.0</project_license>
+  <releases>
+    <release date="2025-02-02" version="1.0"></release>
+  </releases>
+</component>
